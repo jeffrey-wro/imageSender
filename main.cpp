@@ -35,6 +35,8 @@ int main(int argc, char *argv[]) {
 	if(!cap.isOpened())
 		return -1;
 
+    cap.set(CAP_PROP_FRAME_WIDTH,320);
+    cap.set(CAP_PROP_FRAME_HEIGHT,200);
 
     Mat edges; //the processed image
     clock_t current_ticks, delta_ticks; //used to calculate fps
