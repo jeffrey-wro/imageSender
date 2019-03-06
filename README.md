@@ -5,3 +5,7 @@ After Installing the complier use the make file in the top level directory to co
 
 The test program is in the top level directory. 
 The static library file is in the imageSender folder.
+
+This project requires:
+opencvLib
+
